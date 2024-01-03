@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/lincable-card",
+  "version": "0.1.0",
+  "title": "Lincable Card",
+  "category": "media",
+  "icon": "external",
+  "description": "A block to add a lincable card with a title, a content and an icon.",
+  "example": {},
+  "supports": {
+    "html": true,
+    "color": {
+      "background": true,
+      "text": true
+    }
+  },
+  "attributes": {
+    "cardLink": {
+      "type": "string"
+    },
+    "cardWidth": {
+      "type": "string"
+    }
+  },
+  "textdomain": "lincable-card",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

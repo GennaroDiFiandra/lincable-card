@@ -1,0 +1,1 @@
+{"version":3,"file":"view.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAE,yCAA0C,CAAC;AACxD,8B","sources":["webpack://lincable-card/./src/view.js"],"sourcesContent":["/* eslint-disable no-console */\nconsole.log( 'Hello World! (from lincable-card block)' );\n/* eslint-enable no-console */\n"],"names":["console","log"],"sourceRoot":""}

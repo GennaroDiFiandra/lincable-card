@@ -1,0 +1,20 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-create-block-lincable-card {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--lincable-card-gap, 1rem);
+  padding: var(--lincable-card-padding, 1rem);
+  width: var(--lincable-card-width, 288px);
+}
+.wp-block-create-block-lincable-card * {
+  color: initial;
+  margin: 0;
+}
+.wp-block-create-block-lincable-card.has-text-color * {
+  color: inherit;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

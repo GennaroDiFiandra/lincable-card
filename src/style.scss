@@ -1,0 +1,20 @@
+.wp-block-create-block-lincable-card {
+	text-decoration: none;
+
+	display: flex;
+	flex-direction: column;
+	gap: var(--lincable-card-gap, 1rem);
+	padding: var(--lincable-card-padding, 1rem);
+	width: var(--lincable-card-width, 288px);
+
+	& * {
+		color: initial;
+		margin: 0;
+	}
+
+	&.has-text-color {
+		& * {
+			color: inherit;
+		}
+	}
+}
